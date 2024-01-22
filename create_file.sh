@@ -1,4 +1,4 @@
-#! /usr/bin/env zsh
+#! /usr/bin/env bash
 
 touch README.md
 echo '<h1 align="center">Hello! Welcome to my HomePage !</h1>' > README.md

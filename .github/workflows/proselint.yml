@@ -19,8 +19,9 @@ jobs:
         with:
           python-version: '3.12-dev'
       - name: Install proselint
-        run: sudo add-apt-repository universe
-        run: sudo apt install python3-proselint
+        run: |
+          sudo add-apt-repository universe
+          sudo apt install python3-proselint
       - name: Check typo
         run: proselint ../../README.md
       
